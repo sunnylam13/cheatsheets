@@ -76,6 +76,30 @@ cheatsheet do
     end
 
     entry do
+      name 'Add/stage a specific file'
+      notes "
+      ```
+      git add file-name
+      ```"
+    end
+
+    entry do
+      name 'Add/stage new and modified, without deleted'
+      notes "
+      ```
+      git add .
+      ```"
+    end
+
+    entry do
+      name 'Add/stages modified and deleted, without new'
+      notes "
+      ```
+      git add -u
+      ```"
+    end
+
+    entry do
       name 'Commit previously staged changes'
       notes "
       ```
